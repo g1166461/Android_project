@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,2,12,9,8,10,6,7,14,15,16,11,5,17,4,13",
+                        "startColumns": "4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+                        "startOffsets": "111,57,648,463,397,527,246,308,776,846,918,584,200,973,158,718",
+                        "endColumns": "48,52,68,62,64,55,60,87,68,70,53,62,44,327,40,56",
+                        "endOffsets": "155,105,715,524,460,581,305,394,843,915,970,645,243,1299,197,773"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,104,157,229,295,363,422,486,577,649,723,780,846,894,1225,1269",
+                        "endColumns": "48,52,71,65,67,58,63,90,71,73,56,65,47,330,43,59",
+                        "endOffsets": "99,152,224,290,358,417,481,572,644,718,775,841,889,1220,1264,1324"
+                    }
+                }
+            ]
+        }
+    ]
+}

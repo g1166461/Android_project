@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_threek.wma.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\raw\\threek.wma"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_button_highscore.png.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\menu_button_highscore.png"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_button_play_game.png.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\menu_button_play_game.png"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_mmt.png.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\logo_mmt.png"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu.xml.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\layout\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info_christian_winkler.jpg.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\info_christian_winkler.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info_mario_reichmann.jpg.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\info_mario_reichmann.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_deathsound.mp3.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\raw\\deathsound.mp3"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_bonus.mp3.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\raw\\bonus.mp3"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_petenicesplash.mp3.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\raw\\petenicesplash.mp3"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highscore_background.jpg.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\highscore_background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_gamebackground.mp3.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\raw\\gamebackground.mp3"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highscore_online.png.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\highscore_online.png"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_slow.mp3.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\raw\\slow.mp3"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_mma.png.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\logo_mma.png"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info_michael_webersdorfer.jpg.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\info_michael_webersdorfer.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info_programming.jpg.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\info_programming.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info_andreas_nagl.jpg.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\info_andreas_nagl.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info_stefan_ebner.jpg.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\info_stefan_ebner.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_reset.wma.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\raw\\reset.wma"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_row.xml.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\layout\\list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_fhs.png.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\logo_fhs.png"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info_manuel_lehermayr.jpg.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\info_manuel_lehermayr.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_runnershigh.png.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\logo_runnershigh.png"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info_andre_schweighofer.jpg.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\info_andre_schweighofer.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_button_information.png.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\menu_button_information.png"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_runnershigh.xml.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\layout\\runnershigh.xml"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info_background.jpg.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\info_background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_sony.png.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\logo_sony.png"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_highscoreform.xml.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\layout\\highscoreform.xml"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_test.xml.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highscore_submit.png.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\highscore_submit.png"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highscore_local.png.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\highscore_local.png"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_background.jpg.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\menu_background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info_hans_christian_kogler.jpg.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\info_hans_christian_kogler.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_save.mp3.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\raw\\save.mp3"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_highscore.xml.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\layout\\highscore.xml"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info_design.jpg.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\info_design.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info_francois_weber.jpg.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\info_francois_weber.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_single_row.xml.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\layout\\list_single_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_jump.mp3.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\raw\\jump.mp3"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highscore_line.png.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\drawable\\highscore_line.png"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_trampoline.mp3.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\raw\\trampoline.mp3"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_info.xml.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\layout\\info.xml"
+    },
+    {
+        "merged": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_ninek.mp3.flat",
+        "source": "C:\\Users\\lim\\Desktop\\android_project\\runnersHigh-master\\app\\src\\main\\res\\raw\\ninek.mp3"
+    }
+]
