@@ -109,7 +109,7 @@ public class Level {
 		deltaLevelPosition = 0;
 		//scoreCounter = 0;
 		
-		baseSpeedStart = Util.getPercentOfScreenWidth(0.095f);
+		baseSpeedStart = Util.getPercentOfScreenWidth(0.5f);
 		baseSpeed = baseSpeedStart;		
 		baseSpeedMaxStart = Util.getPercentOfScreenWidth(0.2f);
 		baseSpeedMax = baseSpeedMaxStart;
