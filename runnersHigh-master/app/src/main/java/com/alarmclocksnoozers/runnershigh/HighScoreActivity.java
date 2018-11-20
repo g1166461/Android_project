@@ -77,36 +77,22 @@ public class HighScoreActivity extends Activity {
         final Handler handler = new Handler();
 
         findViewById(R.id.buttonLocalHighscore).setOnClickListener(new OnClickListener() {
-			
+
 			public void onClick(View v) {
 
 				Toast.makeText(context, R.string.hs_loading_local, Toast.LENGTH_SHORT).show();
-				
+
 				handler.postDelayed(new Runnable() {
-					
+
 					public void run() {
 						showLocalScore();
 					}
 				}, 500);
 			}
 		});
-        
 
-        findViewById(R.id.buttonOnlineHighscore).setOnClickListener(new OnClickListener() {
-			
-			public void onClick(View v) {
 
-				Toast.makeText(context, R.string.hs_loading_online, Toast.LENGTH_SHORT).show();
-				
-				handler.postDelayed(new Runnable() {
-					
-					public void run() {
-						showOnlineScore();
-					}
-				}, 500);
-			}
-		});
-        
+
         
         Toast.makeText(context, R.string.hs_loading_local, Toast.LENGTH_SHORT).show();
 		
@@ -137,139 +123,15 @@ public class HighScoreActivity extends Activity {
     		final String scoreString = c.getString(2);
     		final String nameString = c.getString(1);
     		
-    		View additional;
-    		
-    		if (c.getString(3).equalsIgnoreCase("0")) {
-    			additional = new Button(this);
-    			
-    			final Context context = this;
-    			final int id = c.getInt(0);
-		       
-    			additional.setOnClickListener(new OnClickListener() {
-					
-					public void onClick(View v) {
-						AlertDialog.Builder alert = new AlertDialog.Builder(context);
-				
-				        alert.setTitle("Push this score online ?");
-				        alert.setMessage("Name: " + nameString + "\nScore: " + scoreString);
-				
-				        // OK
-				        alert.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-				        public void onClick(DialogInterface dialog, int whichButton) {          
-				        	// Push score online
-				        	if(!isOnline()) {
-				        		highScoreAdapter.toastMessage(R.string.hs_error_no_internet);
-				        	} else {
-				        	        		
-				        		// Create a new HttpClient and Post Header
-				        	    HttpClient httpclient = new DefaultHttpClient();
-				        	    HttpPost httppost = new HttpPost(POST_HIGHSCORE_URL);
-				
-				        	    try {
-				        	        List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(2);
-				        	        nameValuePairs.add(new BasicNameValuePair("name", nameString));
-				        	        nameValuePairs.add(new BasicNameValuePair("score", scoreString));
-				        	        httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
-				
-				        	        httpclient.execute(httppost);        	       
-				        	        highScoreAdapter.updateScore(id, 1);
-				        	        highScoreAdapter.toastMessage(R.string.hs_pushed_online);
-				        	        
-				        	        runOnUiThread(new Runnable() {
-										
-										public void run() {
-											showLocalScore();
-											
-										}
-									});
-				        	    } catch (ClientProtocolException e) {
-				        	        // TODO Auto-generated catch block
-				        	    } catch (IOException e) {
-				        	        // TODO Auto-generated catch block
-				        	    }        		
-				        	}        	
-				          }
-				        });
-				        
-				        // CANCEL
-				        alert.setNegativeButton("CANCEL", new DialogInterface.OnClickListener() {
-				          public void onClick(DialogInterface dialog, int whichButton) {
-				            // Canceled.
-				          }
-				        });
-				        alert.show();  
-					}
-				});
-    			additional.setBackgroundResource(R.drawable.highscore_submit);
-    			
-    			LayoutParams paramsOfSubmitButton = new LayoutParams(0, LayoutParams.MATCH_PARENT, 3.0f);
-            	additional.setLayoutParams(paramsOfSubmitButton);
-    		} else {
-    			additional = new TextView(this, null, android.R.attr.textAppearanceSmallInverse);
-    			((TextView)additional).setText("is online");
 
-        		LayoutParams paramsOfAdditional = new LayoutParams(0, LayoutParams.WRAP_CONTENT, 3.0f);
-        		paramsOfAdditional.gravity = Gravity.CENTER_VERTICAL | Gravity.RIGHT;
-        		additional.setLayoutParams(paramsOfAdditional);
-    		}
-    		
-    		generateLine(placeString, scoreString, nameString, additional);
+    		generateLine(placeString, scoreString, nameString);
     		
     	} while(c.moveToNext());
-    	
-    	
-    	
-    }
-    
-    private void showOnlineScore() {
-    	
-    	
-    	
-    	if(!isOnline()) {
-    		Toast.makeText(this, R.string.hs_error_no_internet, Toast.LENGTH_SHORT).show();
-    	} else {
-
-        	highscoreTable.removeAllViews();
-        	
-	    	try {
-	    		HttpClient client = new DefaultHttpClient();  
-	    		String getURL = GET_HIGHSCORE_URL + "?size=" + Integer.toString(Settings.onlineHighscoreLimit);
-	    		HttpGet get = new HttpGet(getURL);
-	    		// query data from server
-	    		HttpResponse responseGet = client.execute(get); 
-	    		HttpEntity resEntityGet = responseGet.getEntity();  
-	    		if (resEntityGet != null) {
-	    			JSONArray jArray = new JSONArray(EntityUtils.toString(resEntityGet));
-	    			
-					String nameString;
-					String scoreString;
-					String timeStamp;
-					
-	    			for(int i = 0; i < jArray.length(); i++) {
-	    				nameString = jArray.getJSONObject(i).getString("name");
-	    				scoreString = jArray.getJSONObject(i).getString("score");
-	    				timeStamp = jArray.getJSONObject(i).getString("created_at");
-	    				
-	    				View additional = new TextView(this, null, android.R.attr.textAppearanceSmallInverse);
-	        			((TextView)additional).setText(timeStamp);
-
-	            		LayoutParams paramsOfAdditional = new LayoutParams(0, LayoutParams.WRAP_CONTENT, 3.0f);
-	            		paramsOfAdditional.gravity = Gravity.CENTER_VERTICAL | Gravity.RIGHT;
-	            		additional.setLayoutParams(paramsOfAdditional);
-	            		
-	            		generateLine(""+(i+1), scoreString, nameString, additional);
-	    			}             
-	    		}
-
-	    	} catch (Exception e) {
-	    		e.printStackTrace();
-	    	}
-    	}
 
     }
+
     
-    
-    private void generateLine(String placeString, String scoreString, String nameString, View additional) {
+    private void generateLine(String placeString, String scoreString, String nameString) {
     	
     	TextView place = new TextView(this, null, android.R.attr.textAppearanceLargeInverse);
 		place.setText(placeString);
@@ -290,10 +152,10 @@ public class HighScoreActivity extends Activity {
 		name.setLayoutParams(paramsOfName);
 		
 
-		addLine(place, score, name, additional);
+		addLine(place, score, name);
     }
     
-    private void addLine(View place, View score, View name, View additional) {
+    private void addLine(View place, View score, View name) {
     	TableRow tr = new TableRow(this);
 
     	tr.setLayoutParams(new LayoutParams(
@@ -304,8 +166,7 @@ public class HighScoreActivity extends Activity {
     	tr.addView(place);
     	tr.addView(score);
     	tr.addView(name);
-    	tr.addView(additional);
-    	
+
     	highscoreTable.addView(tr);
     	ImageView line = new ImageView(this);
     	line.setBackgroundResource(R.drawable.highscore_line);
