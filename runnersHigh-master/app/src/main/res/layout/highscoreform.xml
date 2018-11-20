@@ -55,13 +55,7 @@
 	  	android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
 		/>
-		
-	<CheckBox android:id="@+id/postOnline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Save my score online as well"
-        android:textColor="#876842" />
-	
+
 	<Button android:id="@+id/confirm"
 		android:layout_marginTop="15dp" 
 		android:layout_width="fill_parent"
